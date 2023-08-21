@@ -1,8 +1,9 @@
 import { GlobalStyle } from '../global-style';
 import { Section } from './section/Section';
 import { Component } from "react";
-import { Statistics, Notification } from './statistics/Statistics';
+import { Statistics } from './statistics/Statistics';
 import { FeedbackOptions } from './feedback-options/Feedback-options';
+import { Notification } from './notification/Notification';
 
 export class App extends Component {
 state = {

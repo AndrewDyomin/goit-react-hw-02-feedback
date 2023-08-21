@@ -13,8 +13,3 @@ export const Statistics = ({ good, neutral, bad, total, positivePercentage }) =>
     )
 };
 
-export const Notification = ({ title }) => {
-    return(
-        <p>{title}</p>
-    )
-}
